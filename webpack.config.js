@@ -1,5 +1,6 @@
 const webpack = require('webpack');
 const path = require('path');
+const CopyPlugin = require('copy-webpack-plugin');
 
 const config = {
     entry: './src/index.tsx',
@@ -34,6 +35,11 @@ const config = {
             }
         ]
     },
+    plugins: [
+        new CopyPlugin({
+            patterns: [{from: 'public/index.html'}],
+        })
+    ],
     resolve: {
         extensions: [
             '.js',

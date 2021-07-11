@@ -1,5 +1,5 @@
 {
-  "name": "empty-project",
+  "name": "react-without-cra",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -28,6 +28,7 @@
     "@types/react-dom": "^17.0.9",
     "babel-jest": "^27.0.6",
     "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.1",
     "css-loader": "^5.2.6",
     "jest": "^27.0.6",
     "style-loader": "^3.0.0",
